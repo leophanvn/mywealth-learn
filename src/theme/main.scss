@@ -1,0 +1,265 @@
+@import 'public/assets/css/bootstrap.min.css';
+@import 'public/assets/css/all.min.css';
+@import 'public/assets/css/animate.css';
+@import 'public/assets/css/odometer.css';
+@import 'public/assets/css/nice-select.css';
+@import 'public/assets/css/owl.min.css';
+@import 'public/assets/css/jquery-ui.min.css';
+@import 'public/assets/css/magnific-popup.css';
+@import 'public/assets/css/flaticon.css';
+@import 'public/assets/css/main.css';
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@import './FdsComponents.scss';
+@import './ql.scss';
+
+.footer-extra {
+	color: #a9a9a9;
+	position: relative;
+	padding: 10px 0 50px;
+	font-size: 16px;
+}
+
+.team-item {
+	display: flex;
+	margin-top: 100px;
+
+	.team-item-info {
+		flex: 1;
+		margin-left: 40px;
+
+		h4 {
+			margin: 0;
+			margin-bottom: 5px;
+			font-size: 24px;
+		}
+
+		h6 {
+			margin-bottom: 20px;
+			font-size: 16px;
+			font-weight: 500;
+			color: #979797;
+		}
+
+		ul {
+			padding-left: 20px;
+			text-align: left;
+
+			li {
+				list-style-type: circle;
+			}
+		}
+	}
+
+	.team-item-photo {
+		overflow: hidden;
+		border-radius: 50%;
+		width: 160px;
+		height: 160px;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.team-item {
+		display: block;
+		text-align: center;
+
+		.team-item-info {
+			margin: 0;
+			margin-top: 20px;
+		}
+
+		.team-item-photo {
+			margin: 10px auto;
+		}
+	}
+}
+
+
+
+.video-mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+
+.video-holder {
+	// position: absolute;
+	width: 100%;
+	display: block;
+	overflow: hidden !important;
+	top: 0;
+	left: 0;
+	padding: 0 !important;
+}
+
+.video-holder iframe {
+	position: absolute;
+	top: -75px;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.background-youtube,
+.background-vimeo {
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	right: 0;
+	top: 0;
+}
+
+.video-container video {
+	// height: calc(100vh - 150px);
+}
+
+.video-container {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.video-container video {
+	// width: 100%;
+}
+
+.resp-video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.resp-video iframe,
+.resp-video object,
+.resp-video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.blog-media video {
+	width: 100%;
+	height: auto;
+}
+
+
+.pvlin {
+	float: right;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 100%;
+	color: #fff;
+	margin-top: 30px;
+	box-shadow: 0px 0px 0px 7px rgb(255 255 255 / 30%);
+	transition: all 200ms linear;
+	position: relative;
+	z-index: 20;
+	top: -60px;
+	cursor: pointer;
+}
+
+.pvlin:hover {
+	box-shadow: 0px 0px 0px 12px rgb(255 255 255 / 20%);
+	color: #000;
+}
+
+.phone-demo {
+	background-color: #3d3d3d;
+	display: inline-block;
+	border-radius: 30px;
+	border: 3px solid #3d3d3d;
+	box-shadow: 0px 0px 10px 5px rgb(61 61 61 / 71%);
+	width: 250px;
+	position: absolute;
+	left: -80px;
+	top: 50%;
+	margin-top: -268px;
+}
+
+.slick-track {
+	display: flex;
+	align-items: stretch;
+
+	.slick-slide {
+		display: flex;
+		align-items: stretch;
+		flex: 1;
+		height: auto;
+
+		&>div {
+			flex: 1;
+			display: flex;
+		}
+	}
+}
+
+.slick-prev, .slick-next {
+    font-size: 22px;
+    line-height: 1;
+    position: absolute;
+    /* top: 50%; */
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    /* transform: translate(0, -50%); */
+	display: flex;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #00974d;
+	border-radius: 30px;
+	align-items: center;
+    justify-content: space-around;
+	transition: all 0.2s linear;
+
+	&::before {
+		font-size: 28px;
+		color: #00974d;
+	}
+}
+
+.slick-prev {
+    right: 73px;
+    top: -30px;
+	left: auto;
+}
+
+.slick-next {
+    right: 16px;
+    top: -30px;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    outline: none;
+    background: #07a95b;
+}
+
+.slick-list {
+	margin: 0 -15px;
+}
