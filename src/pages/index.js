@@ -18,7 +18,7 @@ const IndexPage = (props) => {
 
 	return (
 		<>
-			<Head title="News & Insights" />
+			<Head title="Learn" />
 			<Learn />
 		</>
 	);

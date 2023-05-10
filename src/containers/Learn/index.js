@@ -101,7 +101,7 @@ const Learn = (props) => {
 			filter: {
 				skip: 0,
 				limit: 300,
-				where: {},
+				where: { state: 'published' },
 			},
 		}));
 

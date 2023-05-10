@@ -41,9 +41,19 @@ const Header = (props) => {
 				</a>
 			</li>
 			<li>
-				<a className="active" href="/">
-					News & Insights
+				<a href="https://thichhoidap.com/product">
+					Products
 				</a>
+			</li>
+			<li className="dropdown">
+				<a className="active dropbtn" href="/">
+					Learn <i class="fa-thin fa-chevron-down"></i>
+				</a>
+				<div class="dropdown-content">
+					<a href="#company">News</a>
+					<a href="#team">Insights</a>
+					<a href="#careers">Podcasts</a>
+				</div>
 			</li>
 			<li>
 				<a href="https://thichhoidap.com/about-us">
