@@ -47,7 +47,7 @@ const Header = (props) => {
 			</li>
 			<li className="dropdown">
 				<a className="active dropbtn" href="/">
-					Learn <i class="fa-thin fa-chevron-down"></i>
+					Learn <i class="fa fa-caret-down"></i>
 				</a>
 				<div class="dropdown-content">
 					<a href="#company">News</a>
