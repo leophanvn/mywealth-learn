@@ -50,9 +50,9 @@ const Header = (props) => {
 					Learn <i class="fa fa-caret-down"></i>
 				</a>
 				<div class="dropdown-content">
-					<a href="#company">News</a>
-					<a href="#team">Insights</a>
-					<a href="#careers">Podcasts</a>
+					<a href="#news">News</a>
+					<a href="#insights">Insights</a>
+					<a href="#podcasts">Podcasts</a>
 				</div>
 			</li>
 			<li>
