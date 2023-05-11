@@ -23,7 +23,7 @@ const SelectLanguages = (props) => {
 
 	return (
 		<div className="languages">
-			<i className="flaticon-globe" />
+			{/* <i className="flaticon-globe" /> */}
 			<Select
 				defaultValue="en"
 				style={style}
@@ -39,7 +39,7 @@ const SelectLanguages = (props) => {
 					},
 					{
 						value: 'id',
-						label: 'Indonesian',
+						label: 'Bahasa Indonesia',
 					},
 				]}
 			/>
