@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&display=swap");
+
 @import url("https://fonts.googleapis.com/css?family=EB Garamond");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 
 /*
@@ -1563,6 +1564,7 @@ img {
 .header-section.plan-header .header-top ul li .select-bar .current,
 .header-section.plan-header .header-top ul li a {
 	color: #ffffff;
+	/* font-family: "EB Garamond"; */
 }
 
 @media (min-width: 992px) {
@@ -1645,7 +1647,7 @@ img {
 		font-weight: 400;
 		text-transform: capitalize;
 		justify-content: space-between;
-		font-family: "EB Garamond";
+		/* font-family: "EB Garamond"; */
 	}
 
 	.header-bottom .header-area .menu li .submenu li a:hover {
@@ -8105,7 +8107,7 @@ body *::-webkit-scrollbar-track {
 	font-size: 18px;
 	font-weight: 400;
 	transition: all .2s linear;
-	font-family: "EB Garamond";
+	/* font-family: "EB Garamond"; */
 }
 
 .header-bottom .header-area .menu li a.custom-button {
@@ -8120,7 +8122,7 @@ body *::-webkit-scrollbar-track {
 	font-size: 15px;
 	display: block;
 	padding: 15px 40px;
-	font-family: "EB Garamond";
+	/* font-family: "EB Garamond"; */
 }
 
 .custom-button {

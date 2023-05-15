@@ -152,7 +152,7 @@ const Learn = (props) => {
 				<div className="container">
 					<div className="row">
 						<div className="col-12 col-md-8 mb-4 mb-md-0">
-							<div className={classes.nav}>
+							{/* <div className={classes.nav}>
 								<ul>
 									<li>
 										<a href="#" className={classes.active}>For you</a>
@@ -167,7 +167,7 @@ const Learn = (props) => {
 										<a href="#">Top Read</a>
 									</li>
 								</ul>
-							</div>
+							</div> */}
 						</div>
 						<div className="col-12 col-md-4">
 							<Input.Search size="large" placeholder="Search..." onSearch={(v, e) => setTextSearch(v)} allowClear />
