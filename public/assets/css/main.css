@@ -660,7 +660,7 @@ body {
 	margin: 0;
 	font-size: 16px;
 	color: #404846;
-	line-height: 28px;
+	line-height: 26px;
 	overflow-x: hidden;
 	font-family: "Merriweather";
 	font-weight: normal;
@@ -728,7 +728,7 @@ h6 {
 }
 
 p {
-	margin-top: -12px;
+	margin-top: -7px;
 }
 
 p:last-child {
@@ -8104,10 +8104,10 @@ body *::-webkit-scrollbar-track {
 	text-decoration: none;
 	padding: 21px 18px;
 	display: inline-block;
-	font-size: 18px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 500;
 	transition: all .2s linear;
-	/* font-family: "EB Garamond"; */
+	font-family: "EB Garamond";
 }
 
 .header-bottom .header-area .menu li a.custom-button {
@@ -8122,7 +8122,7 @@ body *::-webkit-scrollbar-track {
 	font-size: 15px;
 	display: block;
 	padding: 15px 40px;
-	/* font-family: "EB Garamond"; */
+	font-family: "EB Garamond";
 }
 
 .custom-button {
