@@ -47,6 +47,7 @@ const Header = (props) => {
 				</a>
 				<div class="dropdown-content">
 					<a href="#news">mW Portfolios</a>
+					<a href="#news">Structured Products</a>
 				</div>
 			</li>
 			<li className="dropdown">
@@ -60,11 +61,11 @@ const Header = (props) => {
 			</li>
 			<li className="dropdown">
 				<a className="active dropbtn" href="/">
-					Learn <i class="fa fa-chevron-down fa-xs"></i>
+					News & Insights <i class="fa fa-chevron-down fa-xs"></i>
 				</a>
 				<div class="dropdown-content">
-					<a href="#news">News</a>
-					<a href="#insights">Insights</a>
+					<a href="#news">Learn 101</a>
+					<a href="#insights">Webinars</a>
 					<a href="#podcasts">Podcasts</a>
 				</div>
 			</li>
