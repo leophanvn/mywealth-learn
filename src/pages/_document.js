@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
 					<meta charSet="utf-8" />
 					{/* PWA */}
 					<link rel="manifest" href="/manifest.json" />
-					<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB Garamond"></link>
+					<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"></link>
 					<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"></link>
 
 					<meta name="mobile-web-app-capable" content="yes" />

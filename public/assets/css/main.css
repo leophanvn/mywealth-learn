@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css?family=EB Garamond");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 
@@ -662,7 +662,7 @@ body {
 	color: #404846;
 	line-height: 26px;
 	overflow-x: hidden;
-	font-family: "Merriweather";
+	font-family: "Roboto";
 	font-weight: normal;
 }
 
@@ -1564,13 +1564,12 @@ img {
 .header-section.plan-header .header-top ul li .select-bar .current,
 .header-section.plan-header .header-top ul li a {
 	color: #ffffff;
-	/* font-family: "EB Garamond"; */
 }
 
 @media (min-width: 992px) {
 	.header-section.plan-header .header-bottom .header-area .menu li>a {
 		color: #ffffff;
-		font-family: "EB Garamond";
+		font-family: "Roboto";
 	}
 }
 
@@ -1618,7 +1617,7 @@ img {
 @media (min-width: 992px) {
 
 	.header-bottom .header-area .menu li .submenu {
-		font-family: "EB Garamond";
+		font-family: "Roboto";
 		position: absolute;
 		background: #ffffff;
 		top: 100%;
@@ -1647,7 +1646,7 @@ img {
 		font-weight: 400;
 		text-transform: capitalize;
 		justify-content: space-between;
-		/* font-family: "EB Garamond"; */
+		font-family: "Roboto";
 	}
 
 	.header-bottom .header-area .menu li .submenu li a:hover {
@@ -8104,10 +8103,10 @@ body *::-webkit-scrollbar-track {
 	text-decoration: none;
 	padding: 21px 18px;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 	transition: all .2s linear;
-	font-family: "EB Garamond";
+	font-family: "Roboto";
 }
 
 .header-bottom .header-area .menu li a.custom-button {
@@ -8122,7 +8121,7 @@ body *::-webkit-scrollbar-track {
 	font-size: 15px;
 	display: block;
 	padding: 15px 40px;
-	font-family: "EB Garamond";
+	font-family: "Roboto";
 }
 
 .custom-button {

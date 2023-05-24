@@ -25,29 +25,42 @@ const Header = (props) => {
 
 	return (
 		<ul className="menu">
-			{/* <li>
-				<a href="https://thichhoidap.com/">
-					Home
+			<li className="dropdown">
+				<a href="https://thichhoidap.com/about-us">
+					About Us <i class="fa fa-chevron-down fa-xs"></i>
 				</a>
-			</li> */}
-			<li>
-				<a href="https://thichhoidap.com/invest">
-					Invest
-				</a>
+				<div class="dropdown-content">
+					<a href="#founders">Founders' Story</a>
+					<a href="#mWteam">mW Team & BOA</a>
+					<a href="#work">Work with Us</a>
+					<a href="#contact">Contact Us</a>
+				</div>
 			</li>
 			<li>
 				<a href="https://thichhoidap.com/mw-roadmap">
 					mW Roadmap
 				</a>
 			</li>
-			<li>
-				<a href="https://thichhoidap.com/product">
-					Products
+			<li className="dropdown">
+				<a href="https://thichhoidap.com/invest">
+					Invest  <i class="fa fa-chevron-down fa-xs"></i>
 				</a>
+				<div class="dropdown-content">
+					<a href="#news">mW Portfolios</a>
+				</div>
+			</li>
+			<li className="dropdown">
+				<a href="https://thichhoidap.com/liabilities">
+					Liabilities  <i class="fa fa-chevron-down fa-xs"></i>
+				</a>
+				<div class="dropdown-content">
+					<a href="#news">Housing Loans</a>
+					<a href="#news">Credit Cards</a>
+				</div>
 			</li>
 			<li className="dropdown">
 				<a className="active dropbtn" href="/">
-					Learn  <i class="fa fa-chevron-down fa-xs"></i>
+					Learn <i class="fa fa-chevron-down fa-xs"></i>
 				</a>
 				<div class="dropdown-content">
 					<a href="#news">News</a>
@@ -56,13 +69,13 @@ const Header = (props) => {
 				</div>
 			</li>
 			<li>
-				<a href="https://thichhoidap.com/about-us">
-					About Us
+				<a href="https://thichhoidap.com/support">
+					Support
 				</a>
 			</li>
-			<li className="pr-0">
+			{/* <li className="pr-0">
 				<a href="https://app.mywealth.ai" className="custom-button">Login</a>
-			</li>
+			</li> */}
 			<li>
 				<SelectLanguages />
 			</li>
