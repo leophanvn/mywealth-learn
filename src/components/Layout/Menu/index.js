@@ -30,8 +30,8 @@ const Header = (props) => {
 					About Us <i class="fa fa-chevron-down fa-xs"></i>
 				</a>
 				<div class="dropdown-content">
-					<a href="#founders">Founders' Story</a>
-					<a href="#mWteam">mW Team & BOA</a>
+					<a href="https://thichhoidap.com/founders-story">Founder's Story</a>
+					<a href="#mWteam">mW Team & Board of Advisor</a>
 					<a href="#work">Work with Us</a>
 					<a href="#contact">Contact Us</a>
 				</div>
@@ -47,12 +47,12 @@ const Header = (props) => {
 				</a>
 				<div class="dropdown-content">
 					<a href="#news">mW Portfolios</a>
-					<a href="#news">Structured Products</a>
+					<a href="#news">Structured Products (Launching 2025)</a>
 				</div>
 			</li>
 			<li className="dropdown">
-				<a href="https://thichhoidap.com/liabilities">
-					Liabilities  <i class="fa fa-chevron-down fa-xs"></i>
+				<a href="https://thichhoidap.com/debt">
+					Debt  <i class="fa fa-chevron-down fa-xs"></i>
 				</a>
 				<div class="dropdown-content">
 					<a href="#news">Housing Loans</a>
@@ -65,8 +65,8 @@ const Header = (props) => {
 				</a>
 				<div class="dropdown-content">
 					<a href="#news">Learn 101</a>
-					<a href="#insights">Webinars</a>
-					<a href="#podcasts">Podcasts</a>
+					<a href="#insights">Podcasts & Webinars</a>
+					<a href="#podcasts">Artificial Inteligence</a>
 				</div>
 			</li>
 			<li>
