@@ -24,7 +24,8 @@ const Meta = (props) => {
 
 	return (
 		<>
-			<meta
+			<meta name="robots" content="noindex, nofollow"></meta>
+			{/* <meta
 				name="description"
 				content={METADATA.APP_DESCRIPTION}
 			/>
@@ -32,7 +33,6 @@ const Meta = (props) => {
 				content={METADATA.KEY_WORDS}
 				name="keywords"
 			/>
-			{/* Twitter */}
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:site" content={'@' + METADATA.SHORT_NAME} />
 			<meta name="twitter:title" content={METADATA.APP_NAME} />
@@ -41,19 +41,18 @@ const Meta = (props) => {
 				content={METADATA.APP_DESCRIPTION}
 			/>
 			<meta name="twitter:image" content={METADATA.IMG_SHARE} />
-			{/* Facebook */}
 			<meta property="fb:app_id" content={METADATA.FB_APP_ID} />
 			<meta property="og:type" content="website" />
 			<meta property="og:title" content={METADATA.APP_NAME} />
 			<meta
 				property="og:description"
 				content={METADATA.APP_DESCRIPTION}
-			/>
-			<meta property="og:image" content={METADATA.IMG_SHARE} />
+			/> */}
+			{/* <meta property="og:image" content={METADATA.IMG_SHARE} />
 			<meta property="og:image:width" content="200" />
 			<meta property="og:image:height" content="200" />
 			<meta property="og:locale" content="vi_VN" />
-			<meta property="og:url" content={METADATA.WEB_URL} />
+			<meta property="og:url" content={METADATA.WEB_URL} /> */}
 		</>
 	);
 };

@@ -157,7 +157,7 @@ const Learn = (props) => {
 									<Link href={'/category/' + data.category?.id}><strong className="text-primary">{data.category?.name}</strong></Link> - {moment(data.publishedDate).format('LL')}
 								</div>
 								<h1 className="h1">{data.title}</h1>
-								<div className="d-flex">
+								{/* <div className="d-flex">
 									<div className={classes.shareItem}>
 										<FacebookShareButton
 											url={shareUrl}
@@ -266,7 +266,7 @@ const Learn = (props) => {
 											<WorkplaceIcon size={26} round />
 										</WorkplaceShareButton>
 									</div>
-								</div>
+								</div> */}
 								<div className="mt-2">
 									{
 										data.hashtag?.map((el) => {
