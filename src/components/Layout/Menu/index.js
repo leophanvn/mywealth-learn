@@ -68,8 +68,11 @@ const Header = (props) => {
 						<li className="dropdown"><a href="/">Learn 101</a>
 							<div className="dropdown-menu">
 								<ul className="dropdown-content">
-									<li><a href="#news">Personal Finance</a></li>
-									<li><a href="#news">Trending Topics</a></li>
+									<li><a href="https://learn.realwealth.ai/category/6461dcf10600d097df7e6d12">Trending Topics</a></li>
+									<li><a href="https://learn.realwealth.ai/category/62a984a18094e608266f62a6">Investment Basics</a></li>
+									<li><a href="https://learn.realwealth.ai/category/62a986f48bb3dd74a72ee879">Personal Finance</a></li>
+									<li><a href="https://learn.realwealth.ai/category/62b26df3f681daa8d92bc55c">Growing Your Wealth</a></li>
+									<li><a href="https://learn.realwealth.ai/category/62b26e0cf681daa8d92bc55e">Retirement Planning</a></li>
 								</ul>
 							</div>
 						</li>

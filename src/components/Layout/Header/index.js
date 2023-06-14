@@ -36,7 +36,7 @@ const Header = (props) => {
 					<div className="container">
 						<div className="header-area">
 							<div className="logo">
-								<a href="https://realwealth.com/">
+								<a href="https://realwealth.ai/">
 									<img src="/assets/images/logo/logo.png" alt="logo" />
 								</a>
 							</div>
